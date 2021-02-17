@@ -101,7 +101,7 @@ public class SeleniumTests {
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Fpc%3Dtopnav-about-n-en&flowName=GlifWebSignIn&flowEntry=SignUp");
 
-        // Enetr values for fields - Imię, Nazwisko, Nazwa użytkownika, Hasło and Potwierdź
+        // Enter values for fields - Imię, Nazwisko, Nazwa użytkownika, Hasło and Potwierdź
         WebElement name = driver.findElement(By.xpath("//input[@id='firstName']"));
         name.sendKeys("Piotr");
 
